@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  .xyz {
+    color: red;
+    min-height: calc(100% - 74px);
+  }
+}
