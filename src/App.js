@@ -11,7 +11,7 @@ import PrivateRoute from "./component/PrivateRoute";
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
-    <div className="w-screen h-screen bg-richblack-900 flex flex-col">
+    <div className="w-screen h-screen bg-richblack-900 flex flex-col overflow-x-hidden">
       <Navbar
         className="header"
         setIsLoggedIn={setIsLoggedIn}
@@ -36,7 +36,6 @@ function App() {
           }
         />
       </Routes>
-      {/* </div> */}
     </div>
   );
 }
